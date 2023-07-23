@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+      .centered-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 110px; /* adjust as needed */
+      }
+      body {
+        margin: 0;
+        background-color: #fffffff4;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+      }
+      h1 {
+        font-family: 'Pacifico', cursive;
+        margin-bottom: 0; /* remove margin at the bottom */
+      }
+      button {
+        border-radius: 12px; /* adjust as needed */
+        background: linear-gradient(to right, blue, red);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        transition: background 0.5s;
+        margin-top: 0; /* remove margin at the top */
+      }
+      button:hover {
+        background: linear-gradient(to right, red, blue);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="centered-content">
+      <h1>Resuminate</h1>
+      <button id="getJobId">Start!</button>
+      <h3 id="jobIdDisplay"></h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
