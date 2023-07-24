@@ -1,0 +1,78 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/18.11.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add react-google-login
+
+PATH: 
+  /Users/divyagk/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/divyagk/google-cloud-sdk/bin:/Users/divyagk/opt/anaconda3/bin:/Users/divyagk/opt/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.11.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.11.16.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:838:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:562:8)
+      at listOnTimeout (node:internal/timers:564:17)
+      at process.processTimers (node:internal/timers:507:7)
+
+npm manifest: 
+  {
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.4",
+      "@emotion/react": "latest",
+      "@emotion/styled": "latest",
+      "@mui/icons-material": "latest",
+      "@mui/material": "latest",
+      "@types/react": "latest",
+      "@types/react-dom": "latest"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+openai
+bs4
+requests
+PyMuPDF
+pydantic==1.10.9
+google-cloud-secret-manager
+python-multipart
